@@ -1,0 +1,32 @@
+[
+  {
+    "hotelId": "605c5f77f6e4c9a72f8fbabe", 
+    "fullName": "John Doe",
+    "mobileNumber": "1234567890",
+    "address": "101 Elm Street, Cityville, Country",
+    "purposeOfVisit": "Business",
+    "stayDates": { "from": "2025-02-01", "to": "2025-02-05" },
+    "email": "johndoe@example.com",
+    "idProofNumber": "ID12345678"
+  },
+  {
+    "hotelId": "605c5f77f6e4c9a72f8fbabf", 
+    "fullName": "Jane Smith",
+    "mobileNumber": "9876543210",
+    "address": "202 Oak Street, Sunnytown, Country",
+    "purposeOfVisit": "Personal",
+    "stayDates": { "from": "2025-03-10", "to": "2025-03-15" },
+    "email": "janesmith@example.com",
+    "idProofNumber": "ID87654321"
+  },
+  {
+    "hotelId": "605c5f77f6e4c9a72f8fbac0",
+    "fullName": "Michael Johnson",
+    "mobileNumber": "1122334455",
+    "address": "303 Pine Street, Peak City, Country",
+    "purposeOfVisit": "Tourist",
+    "stayDates": { "from": "2025-04-01", "to": "2025-04-10" },
+    "email": "michaeljohnson@example.com",
+    "idProofNumber": "ID11223344"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Grand Plaza Hotel",
+    "address": "123 Main Street, Cityville, Country",
+    "logo": "https://example.com/logo1.png"
+  },
+  {
+    "name": "Sunset Resort",
+    "address": "456 Beach Road, Sunnytown, Country",
+    "logo": "https://example.com/logo2.png"
+  },
+  {
+    "name": "Mountainview Lodge",
+    "address": "789 Mountain Road, Peak City, Country",
+    "logo": "https://example.com/logo3.png"
+  }
+]
