@@ -1,17 +1,35 @@
 [
   {
-    "name": "Grand Plaza Hotel",
-    "address": "123 Main Street, Cityville, Country",
-    "logo": "https://example.com/logo1.png"
+    "fullName": "John Doe",
+    "mobileNumber": "1234567890",
+    "address": "101 Elm Street, Cityville, Country",
+    "purpose": "Business",
+    "stayFrom": "2025-02-01T00:00:00.000Z",
+    "stayTo": "2025-02-05T00:00:00.000Z",
+    "email": "johndoe@example.com",
+    "idProofNumber": "ID12345678",
+    "hotelId": "605c5f77f6e4c9a72f8fbabe"
   },
   {
-    "name": "Sunset Resort",
-    "address": "456 Beach Road, Sunnytown, Country",
-    "logo": "https://example.com/logo2.png"
+    "fullName": "Jane Smith",
+    "mobileNumber": "9876543210",
+    "address": "202 Oak Street, Sunnytown, Country",
+    "purpose": "Personal",
+    "stayFrom": "2025-03-10T00:00:00.000Z",
+    "stayTo": "2025-03-15T00:00:00.000Z",
+    "email": "janesmith@example.com",
+    "idProofNumber": "ID87654321",
+    "hotelId": "605c5f77f6e4c9a72f8fbabf"
   },
   {
-    "name": "Mountainview Lodge",
-    "address": "789 Mountain Road, Peak City, Country",
-    "logo": "https://example.com/logo3.png"
+    "fullName": "Michael Johnson",
+    "mobileNumber": "1122334455",
+    "address": "303 Pine Street, Peak City, Country",
+    "purpose": "Tourist",
+    "stayFrom": "2025-04-01T00:00:00.000Z",
+    "stayTo": "2025-04-10T00:00:00.000Z",
+    "email": "michaeljohnson@example.com",
+    "idProofNumber": "ID11223344",
+    "hotelId": "605c5f77f6e4c9a72f8fbac0"
   }
 ]
