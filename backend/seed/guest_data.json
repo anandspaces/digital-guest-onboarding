@@ -8,7 +8,7 @@
     "stayTo": "2025-02-05T00:00:00.000Z",
     "email": "johndoe@example.com",
     "idProofNumber": "ID12345678",
-    "hotelId": "605c5f77f6e4c9a72f8fbabe"
+    "hotelName": "Grand Plaza Hotel"
   },
   {
     "fullName": "Jane Smith",
@@ -19,7 +19,7 @@
     "stayTo": "2025-03-15T00:00:00.000Z",
     "email": "janesmith@example.com",
     "idProofNumber": "ID87654321",
-    "hotelId": "605c5f77f6e4c9a72f8fbabf"
+    "hotelName": "Sunset Resort"
   },
   {
     "fullName": "Michael Johnson",
@@ -30,6 +30,6 @@
     "stayTo": "2025-04-10T00:00:00.000Z",
     "email": "michaeljohnson@example.com",
     "idProofNumber": "ID11223344",
-    "hotelId": "605c5f77f6e4c9a72f8fbac0"
+    "hotelName": "Mountainview Lodge"
   }
 ]
