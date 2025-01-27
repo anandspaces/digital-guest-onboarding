@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     const fetchHotels = async () => {
       try {
-        const response = await fetch('/api/hotels');
+        const response = await fetch('http://localhost:5000/api/hotels');
         if (!response.ok) {
           throw new Error('Failed to fetch hotels');
         }
@@ -17,6 +17,7 @@ const Home = () => {
         setHotels(data);
       } catch (err) {
         setError(err.message);
+        console.error(err);
       } finally {
         setLoading(false);
       }
@@ -26,7 +27,7 @@ const Home = () => {
 
     const handleGenerateQR = async (hotelId) => {
     try {
-      const response = await fetch(`/api/hotels/generate-qr/${hotelId}`);
+      const response = await fetch(`http://localhost:5000/api/hotels/generate-qr/${hotelId}`);
       const data = await response.json();
       if (!response.ok) {
         throw new Error('QR generation failed');
@@ -39,7 +40,7 @@ const Home = () => {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
-  
+
   return (
     <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {hotels.map(hotel => (
